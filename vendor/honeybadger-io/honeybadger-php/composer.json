@@ -1,0 +1,61 @@
+{
+    "name": "honeybadger-io/honeybadger-php",
+    "description": "Honeybadger PHP library",
+    "keywords": [
+        "logging",
+        "debugging",
+        "monitoring",
+        "errors",
+        "exceptions",
+        "honeybadger-io",
+        "honeybadger-php"
+    ],
+    "homepage": "https://github.com/honeybadger-io/honeybadger-php",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "TJ Miller",
+            "email": "oss@tjmiller.co",
+            "homepage": "https://tjmiller.co",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.2|^8.0",
+        "ext-json": "*",
+        "guzzlehttp/guzzle": "^6.3|^7.0.1",
+        "monolog/monolog": "^2.0",
+        "spatie/regex": "^1.4|^2.0",
+        "symfony/http-foundation": ">=3.3|^4.1"
+    },
+    "require-dev": {
+        "larapack/dd": "^1.1",
+        "mockery/mockery": "^1.4",
+        "phpunit/phpunit": "^8.5|^9.4"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "2.x-dev"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Honeybadger\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Honeybadger\\Tests\\": "tests"
+        },
+        "files": [
+            "tests/helpers.php"
+        ]
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test:coverage": "vendor/bin/phpunit --coverage-html coverage"
+    },
+    "config": {
+        "sort-packages": true
+    }
+}

@@ -1,0 +1,189 @@
+body {
+  background-color: white;
+  font-family: "Open Sans", sans-serif;
+  color: #646b71;
+  font-size: 14px;
+}
+
+h1 {
+  font-size: 16px;
+  color: #646b71;
+  font-weight: normal;
+}
+
+h2 {
+  font-size: 24px;
+  color: #596066;
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #188ad1;
+  text-decoration: none;
+}
+
+#main {
+  text-align: center;
+  padding-top: 40px;
+}
+
+#main, #footer {
+  width: 100% !important;
+}
+
+#login-form {
+  width: 460px;
+  border-radius: 3px;
+  background-color: #ffffff;
+  border: solid 1px #dddddd;
+  margin: 0 auto;
+  padding: 50px;
+  box-sizing: border-box;
+  text-align: left;
+}
+
+#login-form form {
+  margin-top: 25px;
+}
+
+#login-form, #login-form form {
+  margin-bottom: 0;
+}
+
+#login-form label {
+  display: block;
+}
+
+input#password, input#login, input#password-confirm {
+  color: #646b71;
+  margin: 5px 0 10px;
+  padding: 11px;
+  border-radius: 3px;
+  border: solid 1px #dddddd;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+button.submit {
+  background-color: #0ac336 !important;
+  border: 0 !important;
+  color: #FFF !important;
+  padding: 12px 20px;
+  margin-top: 10px;
+  border-radius: 3px;
+  display: inline-block;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+button.submit:disabled {
+  background-color: #7f7d7d !important;
+  cursor: not-allowed !important;;
+}
+
+#footer {
+  margin-top: 10px;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.footer-social {
+  font-size: 12px;
+  width: 610px;
+  margin: 30px auto 0;
+  display: inline-block;
+}
+
+.footer-social p {
+  float: left;
+  margin: 0;
+  padding: 4px 0;
+}
+
+.social-icons {
+  float: right;
+}
+
+.error,
+.success {
+  width: 460px;
+  border-radius: 3px;
+  margin: 0 auto 20px;
+  padding: 10px 50px;
+  box-sizing: border-box;
+  text-align: left;
+  color: #ff4e4e;
+  border: 1px solid #ffe5e5;
+  background-color: #ffeeee;
+}
+
+.error a {
+  color: #d46262;
+  font-weight: bold;
+}
+
+.success {
+  color: #157100;
+  border: 1px solid #e0f9d8;
+  background-color: #f0f9ee;
+}
+
+.remember {
+  float: right;
+  padding-top: 25px;
+}
+
+#mensagens {
+  margin: 0 auto;
+  width: 815px;
+  text-align: left;
+}
+
+#mensagens .titulo {
+  font-size: 16px;
+  font-weight: bold;
+  display: inline;
+}
+
+#mensagens .mensagem {
+  font-size: 14px;
+}
+
+#mensagens .icone {
+  float: left;
+  padding-right: 15px;
+}
+
+#mensagens .icone img {
+  display: block;
+}
+
+#mensagens .message{
+  padding: 15px 15px 15px 15px;
+}
+
+#mensagens .message-success {
+  background-color: #e6ffec;
+  color: #5fc97a;
+  border: solid 1px #92e8a8 ;
+}
+
+#mensagens .message-warning {
+  background-color: #fff9db;
+  color: #ba9d0b;
+  border: solid 1px #fff3b3 ;
+}
+
+#mensagens .message-info {
+  background-color: #dbeeff;
+  color: #629bd4;
+  border: solid 1px #b2d9ff ;
+}
+
+#mensagens .message-danger {
+  background-color: #ffdbdb;
+  color: #d46262;
+  border: solid 1px #ffb2b2 ;
+}
